@@ -1,0 +1,19 @@
+automated-data-pipeline-orchestrator-agent/
+│
+├── .venv/                     # Virtual environment (already created)
+├── requirements.txt           # Dependencies list
+├── README.md                  # Project explanation
+├── src/                       # Main Python source code
+│   ├── __init__.py             # Makes 'src' a Python package
+│   ├── main.py                 # Entry point of our app
+│   ├── orchestrator.py         # Orchestration logic
+│   ├── pipelines/              # Specific pipelines
+│   │   ├── __init__.py
+│   │   ├── etl_pipeline.py
+│   │   └── report_pipeline.py
+│   └── utils/                  # Helper functions
+│       ├── __init__.py
+│       └── logger.py
+└── tests/                     # Future testing folder
+    ├── __init__.py
+    └── test_orchestrator.py
